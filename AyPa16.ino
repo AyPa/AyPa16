@@ -1001,7 +1001,7 @@ void NoLight(void)
     //60160 60161
 //60378
   
-"555:\n\t"// 712360 times per minute
+"555:\n\t"// 712360 times per minute *64/60=759850 flashes per second - every (out of 18) channel
 /*
 "push r24\n\t"
 "push r25\n\t"
