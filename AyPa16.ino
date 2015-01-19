@@ -6,9 +6,8 @@
 //#define Pin2LOW(port,pin){port&=~(1<<pin);}
 //#define NOP __asm__ __volatile__ ("nop\n\t")
 
-
 extern uint32_t long timer0_millis;
-uint32_t milli;
+uint32_t milli; 
 uint8_t HOUR;
 uint16_t MINU;
 uint32_t SECU;
